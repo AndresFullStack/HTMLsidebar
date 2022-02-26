@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Sidebar</title>
+</head>
+
+<body>
+    <header>
+        <h1>SIDEBAR</h1>
+        <!-- flex -->
+        <section class="button__container">
+            <p>Button para abrir el sidebar</p>
+            <button onclick="">SIDEBAR</button>
+        </section>
+        <!-- display: none -->
+        <!-- height: 70vh -->
+        <!-- width: 500px -->
+        <section class="sidebar__container">
+            <article class="article_border">
+                <ul class="ul__container">
+                    <li class="li_hover"><a href="#" target="_blank">Dashboard</a></li>
+                    <li class="li_hover"><a href="#" target="_blank">Teams</a></li>
+                    <li class="li_hover"><a href="#" target="_blank">Calendar <span>1</span></a></li>
+                    <li class="li_hover"><a href="#" target="_blank">Documents</a></li>
+                    <li class="li_hover"><a href="#" target="_blank">Reports</a></li>
+                </ul>
+            </article>
+            <article class="article_border">
+                <!-- color: gris -->
+                <p class="projects">PROJECTS</p>
+                <!-- Hover without icons-->
+                <ul class="ul__container">
+                    <li class="li_hover"><a href="#" target="_blank">Website settings</a> </li>
+                    <li class="li_hover"><a target="_blank" href="https://graphql.org/">GraphQL API</a></li>
+                    <li class="li_hover"><a onclick="">Customer (change colors)</a></li>
+                </ul>
+            </article>
+            <article>
+                <div class="user_card__container">
+                    <!-- Icon -->
+                    <figure class="img_user_card__container">
+                        <img src="./img/otherImg/gifBMO.jpg" alt="">
+                    </figure>
+                    <!-- Name -->
+                    <div>
+                        <p><strong>William Andres Dussan Gonzalez</strong></p>
+                        <p>Developeer</p>
+                    </div>
+                    <!-- Settings -->
+                    <figure class="icon_user_card__container">
+                        <img src="./img/icons/Ic_settings_48px.svg.png" alt="">
+                    </figure>
+                </div>
+            </article>
+        </section>
+    </header>
+</body>
+
+</html>
